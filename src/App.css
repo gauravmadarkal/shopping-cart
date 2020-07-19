@@ -39,3 +39,6 @@ html, body, #root, .App, .login {
     transform: rotate(360deg);
   }
 }
+.subcontainer{
+  margin: 10px;
+}

@@ -10,6 +10,7 @@
 							"name": "Groceries",
 							"quantity": 3,
 							"productId": 4460755157058,
+							"productName": "Vegetables",
 							"orderId": 7,
 							"orderDate": "2020-04-14T06:15:23.000Z",
 							"status": "SHIPPED"
@@ -19,6 +20,7 @@
 							"name": "Shopping",
 							"quantity": 1,
 							"productId": 4467615531074,
+							"productName": "Nike Shirts",
 							"orderId": 6,
 							"orderDate": "2020-04-14T06:42:47.000Z",
 							"status": "DELIVERED"
@@ -27,6 +29,7 @@
 							"name": "Shopping",
 							"quantity": 2,
 							"productId": 4460755157058,
+							"productName": "Vegetables",
 							"orderId": 6,
 							"orderDate": "2020-04-14T06:42:47.000Z",
 							"status": "DELIVERED"
@@ -35,6 +38,7 @@
 							"name": "Other",
 							"quantity": 4,
 							"productId": 4467830194242,
+							"productName": "DELL Laptops",
 							"orderId": 3,
 							"orderDate": "2020-04-24T10:07:57.000Z",
 							"status": "OUTFORDELIVERY"
@@ -43,6 +47,7 @@
 							"name": "Other",
 							"quantity": 2,
 							"productId": 4460755157058,
+							"productName": "Vegetables",
 							"orderId": 3,
 							"orderDate": "2020-04-24T10:07:57.000Z",
 							"status": "OUTFORDELIVERY"
@@ -51,6 +56,7 @@
 							"name": "Micellaneous",
 							"quantity": 100,
 							"productId": 4455579123778,
+							"productName": "Philips Light Bulbs",
 							"orderId": 2,
 							"orderDate": "2020-04-24T11:41:40.000Z",
 							"status": "SHIPPED"
@@ -59,6 +65,7 @@
 							"name": "Micellaneous",
 							"quantity": 60,
 							"productId": 4455579025474,
+							"productName": "Window Curtains",
 							"orderId": 2,
 							"orderDate": "2020-04-24T11:41:40.000Z",
 							"status": "SHIPPED"
@@ -73,8 +80,9 @@
 					[
 						{
 							"name": "Groceries",
-							"quantity": 3,
+							"quantity": 11,
 							"productId": 4460755157058,
+							"productName": "Vegetables",
 							"orderId": 7,
 							"orderDate": "2020-04-14T06:15:23.000Z",
 							"status": "SHIPPED"
@@ -82,16 +90,18 @@
 						},
 						{
 							"name": "Shopping",
-							"quantity": 1,
+							"quantity": 18,
 							"productId": 4467615531074,
+							"productName": "Nike Shirts",
 							"orderId": 6,
 							"orderDate": "2020-04-14T06:42:47.000Z",
 							"status": "DELIVERED"
 						},
 						{
 							"name": "Shopping",
-							"quantity": 2,
+							"quantity": 21,
 							"productId": 4460755157058,
+							"productName": "Vegetables",
 							"orderId": 6,
 							"orderDate": "2020-04-14T06:42:47.000Z",
 							"status": "DELIVERED"
@@ -100,30 +110,34 @@
 							"name": "Other",
 							"quantity": 4,
 							"productId": 4467830194242,
+							"productName": "DELL Laptops",
 							"orderId": 3,
 							"orderDate": "2020-04-24T10:07:57.000Z",
 							"status": "OUTFORDELIVERY"
 						},
 						{
 							"name": "Other",
-							"quantity": 2,
+							"quantity": 12,
 							"productId": 4460755157058,
+							"productName": "Vegetables",
 							"orderId": 3,
 							"orderDate": "2020-04-24T10:07:57.000Z",
 							"status": "OUTFORDELIVERY"
 						},
 						{
 							"name": "Micellaneous",
-							"quantity": 100,
+							"quantity": 102,
 							"productId": 4455579123778,
+							"productName": "Philips Light Bulbs",
 							"orderId": 2,
 							"orderDate": "2020-04-24T11:41:40.000Z",
 							"status": "DISPATCHED"
 						},
 						{
 							"name": "Micellaneous",
-							"quantity": 60,
+							"quantity": 62,
 							"productId": 4455579025474,
+							"productName": "Window Curtains",
 							"orderId": 2,
 							"orderDate": "2020-04-24T11:41:40.000Z",
 							"status": "DISPATCHED"
