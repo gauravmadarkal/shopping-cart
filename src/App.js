@@ -10,13 +10,7 @@ import * as Strings from './constants/strings'
 const { Footer } = Layout;
 
 class App extends React.Component {
-  componentDidMount() {
-    var data = customerData.customers;
-    this.props.dispatch({
-        type: ActionType.ADD_DATA,
-        payload: data
-    })
-  }
+
   render() {
     return (
       <div className="App">
@@ -29,4 +23,7 @@ class App extends React.Component {
 // const mapStateToProps = () => {
   
 // }
-export default connect()(App);
+const mapStateToProps = state => ({
+  customers: state.customers 
+})
+export default connect(mapStateToProps)(App);

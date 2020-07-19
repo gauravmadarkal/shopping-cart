@@ -1,4 +1,4 @@
-export const appHeading = "Customer Details portal";
+export const appHeading = "Customer Order Details portal";
 export const emptyTableText = "No Data Available";
 export const emptyProductTableText = "Click on any order on the left to view the products";
 export const orderListHeaderText = "List of orders for customer id: ";

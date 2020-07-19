@@ -7,16 +7,6 @@
 			"orders":
 					[
 						{
-							"name": "Groceries",
-							"quantity": 3,
-							"productId": 4460755157058,
-							"productName": "Vegetables",
-							"orderId": 7,
-							"orderDate": "2020-04-14T06:15:23.000Z",
-							"status": "SHIPPED"
-							
-						},
-						{
 							"name": "Shopping",
 							"quantity": 1,
 							"productId": 4467615531074,
@@ -26,28 +16,10 @@
 							"status": "DELIVERED"
 						},
 						{
-							"name": "Shopping",
-							"quantity": 2,
-							"productId": 4460755157058,
-							"productName": "Vegetables",
-							"orderId": 6,
-							"orderDate": "2020-04-14T06:42:47.000Z",
-							"status": "DELIVERED"
-						},
-						{
 							"name": "Other",
 							"quantity": 4,
 							"productId": 4467830194242,
 							"productName": "DELL Laptops",
-							"orderId": 3,
-							"orderDate": "2020-04-24T10:07:57.000Z",
-							"status": "OUTFORDELIVERY"
-						},
-						{
-							"name": "Other",
-							"quantity": 2,
-							"productId": 4460755157058,
-							"productName": "Vegetables",
 							"orderId": 3,
 							"orderDate": "2020-04-24T10:07:57.000Z",
 							"status": "OUTFORDELIVERY"
@@ -79,16 +51,6 @@
 			"orders":
 					[
 						{
-							"name": "Groceries",
-							"quantity": 11,
-							"productId": 4460755157058,
-							"productName": "Vegetables",
-							"orderId": 7,
-							"orderDate": "2020-04-14T06:15:23.000Z",
-							"status": "SHIPPED"
-							
-						},
-						{
 							"name": "Shopping",
 							"quantity": 18,
 							"productId": 4467615531074,
@@ -98,28 +60,10 @@
 							"status": "DELIVERED"
 						},
 						{
-							"name": "Shopping",
-							"quantity": 21,
-							"productId": 4460755157058,
-							"productName": "Vegetables",
-							"orderId": 6,
-							"orderDate": "2020-04-14T06:42:47.000Z",
-							"status": "DELIVERED"
-						},
-						{
 							"name": "Other",
 							"quantity": 4,
 							"productId": 4467830194242,
 							"productName": "DELL Laptops",
-							"orderId": 3,
-							"orderDate": "2020-04-24T10:07:57.000Z",
-							"status": "OUTFORDELIVERY"
-						},
-						{
-							"name": "Other",
-							"quantity": 12,
-							"productId": 4460755157058,
-							"productName": "Vegetables",
 							"orderId": 3,
 							"orderDate": "2020-04-24T10:07:57.000Z",
 							"status": "OUTFORDELIVERY"

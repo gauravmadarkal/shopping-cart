@@ -25,24 +25,7 @@ export const OrdersColumns = [
         render: text => <Button>{text}</Button>
     }
 ]
-export const ProductColumns = [
-    {
-        title: 'Product Name',
-        dataIndex: 'productName',
-        key: 'productName'
-    },
-    {
-        title: 'Product Id',
-        dataIndex: 'productId',
-        key: 'productId'
-    },
-    {
-        title: 'Quantity',
-        dataIndex: 'quantity',
-        key: 'quantity',
-        render: text => <InputNumber min={1} max={100} value={text}/>
-    },
-]
+
 export const AllProductColumns = [
     {
         title: 'Product Name',
