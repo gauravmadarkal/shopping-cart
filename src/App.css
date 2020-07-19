@@ -1,3 +1,6 @@
+html, body, #root, .App, .login {
+  height: 100%;
+}
 .App {
   text-align: center;
 }

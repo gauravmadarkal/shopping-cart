@@ -7,7 +7,7 @@
 			"orders":
 					[
 						{
-							"name": "Test 1",
+							"name": "Groceries",
 							"quantity": 3,
 							"product_id": 4460755157058,
 							"orderId": 7,
@@ -16,7 +16,7 @@
 							
 						},
 						{
-							"name": "Test 2",
+							"name": "Shopping",
 							"quantity": 1,
 							"product_id": 4467615531074,
 							"orderId": 6,
@@ -24,7 +24,7 @@
 							"status": "DELIVERED"
 						},
 						{
-							"name": "Test 1",
+							"name": "Shopping",
 							"quantity": 2,
 							"product_id": 4460755157058,
 							"orderId": 6,
@@ -32,7 +32,7 @@
 							"status": "DISPACTHED"
 						},
 						{
-							"name": "Test 4",
+							"name": "Other",
 							"quantity": 4,
 							"product_id": 4467830194242,
 							"orderId": 3,
@@ -40,7 +40,7 @@
 							"status": "SHIPPED"
 						},
 						{
-							"name": "Test 1",
+							"name": "Other",
 							"quantity": 2,
 							"product_id": 4460755157058,
 							"orderId": 3,
@@ -48,7 +48,7 @@
 							"status": "SHIPPED"
 						},
 						{
-							"name": "Test 6",
+							"name": "Micellaneous",
 							"quantity": 100,
 							"product_id": 4455579123778,
 							"orderId": 2,
@@ -56,7 +56,7 @@
 							"status": "SHIPPED"
 						},
 						{
-							"name": "Test 7",
+							"name": "Micellaneous",
 							"quantity": 60,
 							"product_id": 4455579025474,
 							"orderId": 2,
@@ -72,7 +72,7 @@
 			"orders":
 					[
 						{
-							"name": "Test 1",
+							"name": "Groceries",
 							"quantity": 3,
 							"product_id": 4460755157058,
 							"orderId": 7,
@@ -81,7 +81,7 @@
 							
 						},
 						{
-							"name": "Test 2",
+							"name": "Shopping",
 							"quantity": 1,
 							"product_id": 4467615531074,
 							"orderId": 6,
@@ -89,7 +89,7 @@
 							"status": "delivered"
 						},
 						{
-							"name": "Test 1",
+							"name": "Shopping",
 							"quantity": 2,
 							"product_id": 4460755157058,
 							"orderId": 6,
@@ -97,7 +97,7 @@
 							"status": "dispatched"
 						},
 						{
-							"name": "Test 4",
+							"name": "Other",
 							"quantity": 4,
 							"product_id": 4467830194242,
 							"orderId": 3,
@@ -105,7 +105,7 @@
 							"status": "shipped"
 						},
 						{
-							"name": "Test 1",
+							"name": "Other",
 							"quantity": 2,
 							"product_id": 4460755157058,
 							"orderId": 3,
@@ -113,7 +113,7 @@
 							"status": "out_for_delivery"
 						},
 						{
-							"name": "Test 6",
+							"name": "Micellaneous",
 							"quantity": 100,
 							"product_id": 4455579123778,
 							"orderId": 2,
@@ -121,7 +121,7 @@
 							"status": "shipped"
 						},
 						{
-							"name": "Test 7",
+							"name": "Micellaneous",
 							"quantity": 60,
 							"product_id": 4455579025474,
 							"orderId": 2,

@@ -1,18 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import customerData from './assets/data.json';
-import store from './assets/store'
+import store  from './index'
 import * as ActionType from './actions/action-type'
+import Home from './component/home';
+import { Layout } from 'antd';
+import { connect } from 'react-redux';
+
+const { Footer } = Layout;
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     var data = customerData.customers;
-    store.dispatch({
+    this.props.dispatch({
         type: ActionType.ADD_DATA,
         payload: data
     })
@@ -20,10 +20,13 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        Hello
+        <Home/>
+        <Footer style={{ textAlign: 'center' }}><h1>Customer Details portal</h1></Footer>
       </div>
     );
   }
 }
-
-export default App;
+// const mapStateToProps = () => {
+  
+// }
+export default connect()(App);
