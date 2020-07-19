@@ -9,7 +9,7 @@
 						{
 							"name": "Groceries",
 							"quantity": 3,
-							"product_id": 4460755157058,
+							"productId": 4460755157058,
 							"orderId": 7,
 							"orderDate": "2020-04-14T06:15:23.000Z",
 							"status": "SHIPPED"
@@ -18,7 +18,7 @@
 						{
 							"name": "Shopping",
 							"quantity": 1,
-							"product_id": 4467615531074,
+							"productId": 4467615531074,
 							"orderId": 6,
 							"orderDate": "2020-04-14T06:42:47.000Z",
 							"status": "DELIVERED"
@@ -26,31 +26,31 @@
 						{
 							"name": "Shopping",
 							"quantity": 2,
-							"product_id": 4460755157058,
+							"productId": 4460755157058,
 							"orderId": 6,
 							"orderDate": "2020-04-14T06:42:47.000Z",
-							"status": "DISPACTHED"
+							"status": "DELIVERED"
 						},
 						{
 							"name": "Other",
 							"quantity": 4,
-							"product_id": 4467830194242,
+							"productId": 4467830194242,
 							"orderId": 3,
 							"orderDate": "2020-04-24T10:07:57.000Z",
-							"status": "SHIPPED"
+							"status": "OUTFORDELIVERY"
 						},
 						{
 							"name": "Other",
 							"quantity": 2,
-							"product_id": 4460755157058,
+							"productId": 4460755157058,
 							"orderId": 3,
 							"orderDate": "2020-04-24T10:07:57.000Z",
-							"status": "SHIPPED"
+							"status": "OUTFORDELIVERY"
 						},
 						{
 							"name": "Micellaneous",
 							"quantity": 100,
-							"product_id": 4455579123778,
+							"productId": 4455579123778,
 							"orderId": 2,
 							"orderDate": "2020-04-24T11:41:40.000Z",
 							"status": "SHIPPED"
@@ -58,10 +58,10 @@
 						{
 							"name": "Micellaneous",
 							"quantity": 60,
-							"product_id": 4455579025474,
+							"productId": 4455579025474,
 							"orderId": 2,
 							"orderDate": "2020-04-24T11:41:40.000Z",
-							"status": "OUTFORDELIVERY"
+							"status": "SHIPPED"
 						}
 					],
 					"status": true
@@ -74,59 +74,59 @@
 						{
 							"name": "Groceries",
 							"quantity": 3,
-							"product_id": 4460755157058,
+							"productId": 4460755157058,
 							"orderId": 7,
 							"orderDate": "2020-04-14T06:15:23.000Z",
-							"status": "shipped"
+							"status": "SHIPPED"
 							
 						},
 						{
 							"name": "Shopping",
 							"quantity": 1,
-							"product_id": 4467615531074,
+							"productId": 4467615531074,
 							"orderId": 6,
 							"orderDate": "2020-04-14T06:42:47.000Z",
-							"status": "delivered"
+							"status": "DELIVERED"
 						},
 						{
 							"name": "Shopping",
 							"quantity": 2,
-							"product_id": 4460755157058,
+							"productId": 4460755157058,
 							"orderId": 6,
 							"orderDate": "2020-04-14T06:42:47.000Z",
-							"status": "dispatched"
+							"status": "DELIVERED"
 						},
 						{
 							"name": "Other",
 							"quantity": 4,
-							"product_id": 4467830194242,
+							"productId": 4467830194242,
 							"orderId": 3,
 							"orderDate": "2020-04-24T10:07:57.000Z",
-							"status": "shipped"
+							"status": "OUTFORDELIVERY"
 						},
 						{
 							"name": "Other",
 							"quantity": 2,
-							"product_id": 4460755157058,
+							"productId": 4460755157058,
 							"orderId": 3,
 							"orderDate": "2020-04-24T10:07:57.000Z",
-							"status": "out_for_delivery"
+							"status": "OUTFORDELIVERY"
 						},
 						{
 							"name": "Micellaneous",
 							"quantity": 100,
-							"product_id": 4455579123778,
+							"productId": 4455579123778,
 							"orderId": 2,
 							"orderDate": "2020-04-24T11:41:40.000Z",
-							"status": "shipped"
+							"status": "DISPATCHED"
 						},
 						{
 							"name": "Micellaneous",
 							"quantity": 60,
-							"product_id": 4455579025474,
+							"productId": 4455579025474,
 							"orderId": 2,
 							"orderDate": "2020-04-24T11:41:40.000Z",
-							"status": "dispatched"
+							"status": "DISPATCHED"
 						}
 					],
 					"status": true
