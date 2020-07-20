@@ -1,4 +1,0 @@
-export const DELIVERED = "DELIVERED"
-export const DISPATCHED = "DISPATCHED" 
-export const OUTFORDELIVERY = "OUTFORDELIVERY"
-export const SHIPPED = "SHIPPED"

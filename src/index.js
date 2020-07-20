@@ -11,7 +11,7 @@ import LocalStore from './assets/store'
 
 ReactDOM.render(
   <Provider store={LocalStore.getDefaultStore().store}>
-    {console.log("appstarting")}
+    {/* {console.log("appstarting")} */}
     <App />
   </Provider>,
   document.getElementById('root')

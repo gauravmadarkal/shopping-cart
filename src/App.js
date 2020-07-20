@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-import customerData from './assets/data.json';
-import * as ActionType from './actions/action-type'
 import Home from './component/home';
 import { Layout } from 'antd';
 import { connect } from 'react-redux';

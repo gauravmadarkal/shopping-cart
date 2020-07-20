@@ -1,31 +1,4 @@
 import React from 'react';
-import {  Button, InputNumber } from 'antd';
-
-export const OrdersColumns = [
-    {
-        title: 'Order Name',
-        dataIndex: 'name',
-        key: 'name',
-        render: text => <a>{text}</a>
-    },
-    {
-        title: 'Order Id',
-        dataIndex: 'orderId',
-        key: 'orderId'
-    },
-    {
-        title: 'Order Date',
-        dataIndex: 'orderDate',
-        key: 'orderDate'
-    },
-    {
-        title: 'Status',
-        dataIndex: 'status',
-        key: 'status',
-        render: text => <Button>{text}</Button>
-    }
-]
-
 export const AllProductColumns = [
     {
         title: 'Product Name',

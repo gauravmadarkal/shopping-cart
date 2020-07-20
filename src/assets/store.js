@@ -10,7 +10,6 @@ class LocalStore {
     // Singleton property
     static DefaultStore = null;
   
-    // Accessor to the default instance of this class
     static getDefaultStore() {
       if (LocalStore.DefaultStore === null) {
         LocalStore.DefaultStore = new LocalStore();
