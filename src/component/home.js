@@ -8,7 +8,7 @@ const { Header, Content } = Layout;
 
 class Home extends React.Component{
     render() {
-        console.log("start");
+        // console.log("start");
         return (
             <Router>
             <Layout>

@@ -7,7 +7,8 @@ import 'antd/dist/antd.css';
 import { Provider } from 'react-redux';
 import LocalStore from './assets/store'
 /**
- * initially the store is loaded from data.json file */
+ * initially the store is loaded from data.json file
+ */
 
 ReactDOM.render(
   <Provider store={LocalStore.getDefaultStore().store}>

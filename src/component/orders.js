@@ -18,7 +18,6 @@ class Orders extends React.Component{
         {
             title: 'Product Name',
             dataIndex: 'productName',
-            // key: 'productName'
         },
         {
             title: 'Product Id',
@@ -28,7 +27,6 @@ class Orders extends React.Component{
         {
             title: 'Quantity',
             dataIndex: 'quantity',
-            // key: 'quantity',
             render: (text, record) => <InputNumber min={1} max={100} defaultValue={text} onChange={(value) => this.quantityChanged(value, record)}/>
         },
     ]
@@ -120,7 +118,7 @@ class Orders extends React.Component{
         this.props.updateQuantity(action);
     }
     showOrderDetails(event, orderId, customer) {
-        console.log("clicked",orderId);
+        // console.log("clicked",orderId);
         if (customer != null && orderId != null) {
             var products = [];
             _.forEach(customer.orders, function (order) {
@@ -181,10 +179,9 @@ class Orders extends React.Component{
                             })   
                         }
                         else {
-                            const v = orderedProducts[index].quantity;
-                            const vv = order.quantity;
-                            orderedProducts[index].quantity = v + vv;
-                            // orderedProducts[index].quantity = orderedProducts[index].quantity + order.quantity
+                            const newq = orderedProducts[index].quantity;
+                            const presentq = order.quantity;
+                            orderedProducts[index].quantity = newq + presentq;
                         }
                     }
                 })
@@ -193,8 +190,6 @@ class Orders extends React.Component{
         return null;
     }
     render() {
-        // console.log("hi ", this.props.match.params.id);
-        // orderedProducts = null;
         const allCustomers = this.props.customers;
         id = this.props.match.params.id;
         id = parseInt(id);

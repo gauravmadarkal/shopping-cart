@@ -18,9 +18,6 @@ class App extends React.Component {
     );
   }
 }
-// const mapStateToProps = () => {
-  
-// }
 const mapStateToProps = state => ({
   customers: state.customers 
 })
